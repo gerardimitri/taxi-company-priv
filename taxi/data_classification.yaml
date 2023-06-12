@@ -1,0 +1,326 @@
+? ''
+: - fides_key: privacy_db_dataset
+    organization_fides_key: '1'
+    name: Privacy Dataset
+    description: This is a Privacy Dataset for Taxi Company
+    data_categories:
+    - system
+    - system.authentication
+    - system.operations
+    - user
+    - user.payment
+    - user.biometric
+    - user.biometric_health
+    - user.browsing_history
+    - user.demographic
+    - user.contact
+    - user.device
+    - user.gender
+    - user.location
+    - user.media_consumption
+    - user.non_specific_age
+    - user.observed
+    - user.profiling
+    - user.race
+    - user.religious_belief
+    - user.search_history
+    - user.sexual_orientation
+    - user.social
+    - user.telemetry
+    - user.unique_id
+    - user.user_sensor
+    - user.organization
+    - user.workplace
+    - user.sensor
+    - user.childrens
+    - user.credentials
+    - user.date_of_birth
+    - user.financial
+    - user.genetic
+    - user.government_id
+    - user.health_and_medical
+    - user.job_title
+    - user.name
+    - user.political_opinion
+    - user.contact.address
+    - user.contact.email
+    - user.contact.phone_number
+    - user.contact.address.city
+    - user.contact.address.country
+    - user.contact.address.postal_code
+    - user.contact.address.state
+    - user.contact.address.street
+    - user.credentials.biometric_credentials
+    - user.credentials.password
+    - user.device.cookie_id
+    - user.device.device_id
+    - user.device.ip_address
+    - user.financial.account_number
+    - user.government_id.drivers_license_number
+    - user.government_id.national_identification_number
+    - user.government_id.passport_number
+    - user.payment.financial_account_number
+    - user.car_details
+    - user.profile_photo
+    - user.background
+    data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+    retention: No retention or erasure policy
+    collections:
+    - name: employee
+      data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+      fields:
+      - name: BackgroundCheck
+        description: ''
+        data_categories:
+        - user.unique_id
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 100, ''months'': 0, ''days'': 0}'
+      - name: BackgroundCheck
+        description: ''
+        data_categories:
+        - user.non_specific_age
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 100, ''months'': 0, ''days'': 0}'
+      - name: BackgroundCheck
+        description: ''
+        data_categories:
+        - user.background
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 100, ''months'': 0, ''days'': 0}'
+      - name: BackgroundCheck
+        description: ''
+        data_categories:
+        - user.profile_photo
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 100, ''months'': 0, ''days'': 0}'
+      - name: BackgroundCheck
+        description: ''
+        data_categories:
+        - user.background
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 100, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.name
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.name
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.contact.email
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.government_id.national_identification_number
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.financial.account_number
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.financial.account_number
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.car_details
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.car_details
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.car_details
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: Driver
+        description: ''
+        data_categories:
+        - user.car_details
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: DriverPayment
+        description: ''
+        data_categories:
+        - user.unique_id
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: DriverPayment
+        description: ''
+        data_categories:
+        - user.payment
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: DriverPayment
+        description: ''
+        data_categories:
+        - user.payment
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: DriverPayment
+        description: ''
+        data_categories:
+        - user.payment
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: DriverPayment
+        description: ''
+        data_categories:
+        - user.payment
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: DriverPayment
+        description: ''
+        data_categories:
+        - user.payment
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 10, ''months'': 0, ''days'': 0}'
+      - name: RideChat
+        description: ''
+        data_categories:
+        - user.unique_id
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 3, ''days'': 0}'
+      - name: RideChat
+        description: ''
+        data_categories:
+        - user.social
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 3, ''days'': 0}'
+      - name: RideChat
+        description: ''
+        data_categories:
+        - user.social
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 3, ''days'': 0}'
+      - name: Route
+        description: ''
+        data_categories:
+        - user.location
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 0, ''days'': 15}'
+      - name: Route
+        description: ''
+        data_categories:
+        - user.location
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 0, ''days'': 15}'
+      - name: Trip
+        description: ''
+        data_categories:
+        - user.unique_id
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'
+    - name: passenger
+      data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+      fields:
+      - name: Client
+        description: ''
+        data_categories:
+        - user.name
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'
+      - name: Client
+        description: ''
+        data_categories:
+        - user.name
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'
+      - name: Client
+        description: ''
+        data_categories:
+        - user.contact.email
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'
+      - name: Client
+        description: ''
+        data_categories:
+        - user.financial.account_number
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'
+      - name: Client
+        description: ''
+        data_categories:
+        - user.financial.account_number
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'
+      - name: ClientPayment
+        description: ''
+        data_categories:
+        - user.unique_id
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'
+      - name: ClientPayment
+        description: ''
+        data_categories:
+        - user.payment
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 2, ''months'': 0, ''days'': 0}'
+      - name: ClientPayment
+        description: ''
+        data_categories:
+        - user.payment
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 2, ''months'': 0, ''days'': 0}'
+      - name: ClientPayment
+        description: ''
+        data_categories:
+        - user.payment
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'
+      - name: RideChat
+        description: ''
+        data_categories:
+        - user.unique_id
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 3, ''days'': 0}'
+      - name: RideChat
+        description: ''
+        data_categories:
+        - user.social
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 3, ''days'': 0}'
+      - name: RideChat
+        description: ''
+        data_categories:
+        - user.social
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 3, ''days'': 0}'
+      - name: Route
+        description: ''
+        data_categories:
+        - user.location
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 0, ''days'': 15}'
+      - name: Route
+        description: ''
+        data_categories:
+        - user.location
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 0, ''months'': 0, ''days'': 15}'
+      - name: Trip
+        description: ''
+        data_categories:
+        - user.unique_id
+        data_qualifier: aggregated.anonymized.unlinked_pseudonymized.pseudonymized.identified
+        retention: '{''years'': 1, ''months'': 0, ''days'': 0}'

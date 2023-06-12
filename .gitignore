@@ -1,0 +1,14 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+.env
+.env.*
+app/migrations/*
+taxi/app/migrations/*
+
+# Pytest #
+.pytest_cache
+.coverage
